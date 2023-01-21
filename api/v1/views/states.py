@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''Contains the states view for the API.'''
-from flask import jsonify, request, abort
-from werkzeug.exceptions import NotFound, MethodNotAllowed, BadRequest
+from flask import jsonify, request
+from werkzeug.exceptions import NotFound, BadRequest
 
 from api.v1.views import app_views
 from models import storage
