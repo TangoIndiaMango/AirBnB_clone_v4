@@ -2,28 +2,25 @@
 
 """ objects that handles all default RestFul API actions for Amenities
 """
+
 from models.amenity import Amenity
-# from models.state import State
 from models import storage
 from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
 from flasgger.utils import swag_from
 
 
-@app_views.route('/amenities/', methods=['GET'],
-                 strict_slashes=False)
+@app_views.route('/amenities', methods=['GET'], strict_slashes=False)
 @swag_from('documentation/amenity/all_amenities.yml')
 def get_amenities():
     """
-    Retrieves the list of all amenities
+    Retrieves a list of all amenities
     """
-    list_amenities = []
     all_amenities = storage.all(Amenity).values()
-
+    list_amenities = []
     for amenity in all_amenities:
         list_amenities.append(amenity.to_dict())
-
-    return jsonify(list_amenitie)
+    return jsonify(list_amenities)
 
 
 @app_views.route('/amenities/<amenity_id>/', methods=['GET'],
