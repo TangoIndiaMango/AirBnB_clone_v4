@@ -157,7 +157,7 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 Andrew Ishaku Wreford - [Github](https://github.com/wrefinity) / [LinkedIn](https://www.linkedin.com/in/ishaku-wreford-andrew-87b334181/)
-Azeezat Maja - [Github](https://github.com/zeezatcoder) / [LinkedIn](https://www.linkedin.com/in/azeezat maja)
+Azeezat Maja - [Github](https://github.com/zeezatcoder) / [LinkedIn](https://www.linkedin.com/in/Azeezat maja)
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
