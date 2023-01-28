@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Starts a Flash Web Application """
+""" Flash Web AirBnB Application """
 from models import storage
 from models.state import State
 from models.city import City
@@ -22,7 +22,7 @@ def close_db(error):
 def hbnb():
     """ HBNB main function"""
     states = storage.all(State).values()
-    states = sorted(states, key=lambda k: k.name)
+    states = sorted(states, key=lambda s: s.name)
     st_data = []
 
     for state in states:
